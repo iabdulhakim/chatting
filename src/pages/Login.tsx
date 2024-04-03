@@ -8,9 +8,8 @@ import Link from "@mui/material/Link";
 import Paper from "@mui/material/Paper";
 import Box from "@mui/material/Box";
 import Grid from "@mui/material/Grid";
-
 import Typography from "@mui/material/Typography";
-import { Google, Telegram } from "@mui/icons-material";
+import { Telegram } from "@mui/icons-material";
 import {
   createUserWithEmailAndPassword,
   signInWithEmailAndPassword,
@@ -148,17 +147,6 @@ export default function Login() {
               sx={{ mt: 3, mb: 2 }}
             >
               Sign In
-            </Button>
-            <Button
-              type="button"
-              onClick={singInGoogle}
-              fullWidth
-              color="warning"
-              variant="contained"
-              sx={{ mb: 2 }}
-            >
-              Sign In
-              <Google sx={{ ml: 1 }}></Google>
             </Button>
             <Grid container>
               <Grid item xs>
